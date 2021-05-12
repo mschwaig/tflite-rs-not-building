@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "naersk": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1619312121,
+        "narHash": "sha256-Zx1rTlonsp54lVlnIg38HV3bYx6GdIoKS1SgDnV+YBY=",
+        "ref": "feat/cargolock-git-deps",
+        "rev": "07d0b56bdbd353a705f26b799e3a125c7be0f8c3",
+        "revCount": 256,
+        "type": "git",
+        "url": "https://github.com/yusdacra/naersk.git?ref=feat%2Fcargolock-git-deps&rev=07d0b56bdbd353a705f26b799e3a125c7be0f8c3"
+      },
+      "original": {
+        "ref": "feat/cargolock-git-deps",
+        "rev": "07d0b56bdbd353a705f26b799e3a125c7be0f8c3",
+        "type": "git",
+        "url": "https://github.com/yusdacra/naersk.git?ref=feat%2Fcargolock-git-deps&rev=07d0b56bdbd353a705f26b799e3a125c7be0f8c3"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1620838695,
+        "narHash": "sha256-Eb3xr6aWt3lF8BgmZCgVJXy/ArmudeJXONGSqaSLfP0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "acd49fab8ece11a89ef8ee49903e1cd7bb50f4b7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "naersk": "naersk",
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1620759905,
+        "narHash": "sha256-WiyWawrgmyN0EdmiHyG2V+fqReiVi8bM9cRdMaKQOFg=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b543720b25df6ffdfcf9227afafc5b8c1fabfae8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

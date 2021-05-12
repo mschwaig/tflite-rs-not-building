@@ -1,0 +1,8 @@
+[package]
+name = "tflite-build-test"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+[dependencies]
+tflite = { git = "https://github.com/mschwaig/tflite-rs.git", branch = "stop-rewriting-flattbuffers-test" }
